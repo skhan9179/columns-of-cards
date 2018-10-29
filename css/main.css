@@ -12,3 +12,15 @@ html {
 body {
   margin: 0;
 }
+
+/*
+- *Typefaces:* `Open Sans` (regular, italic, bold)
+- *Text sizes:* `2rem`, `.875rem`
+- *Line height:* `1.5`
+- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
+- *Paddings:* `1.5rem`, `.75rem`
+- *Margins:* `0`, `0 auto 1.5rem`, `0 0 1.5rem`
+- *Image width:* `100px`
+
+*The button is `.btn` & `.btn-small` from our buttons exercise.*
+*/
