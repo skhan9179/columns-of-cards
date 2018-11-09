@@ -20,7 +20,9 @@ section {
 h2 {
   margin: 0;
   padding: 1.5rem 0;
+
   text-align: center;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -29,39 +31,90 @@ h2 {
   padding: 0 1.5rem;
 }
 
-.wrapper .btn:first-child {
+.card:first-child {
   background-color: #e2e2e2;
 }
 
-.wrapper .btn:nth-child(2) {
+.card:nth-child(2) {
   background-color: #ccc;
 }
 
-.wrapper .btn:nth-child(3) {
+.card:nth-child(3) {
   background-color: #aaa;
 }
 
-.wrapper .btn:last-child {
-  border-width: 0 thin 0;
+.card:last-child {
+  border-width: 0 thin;
   border-style: solid;
-  border-color: Black;
+  border-color: black;
   background-color: #999;
 }
 
-.wrapper .btn:first-child, .wrapper .btn:nth-child(2), .wrapper .btn:nth-child(3) {
+.card:first-child, .card:nth-child(2), .card:nth-child(3) {
   border-width: 0 0 0 thin;
   border-style: solid;
-  border-color: Black;
+  border-color: black;
+}
+
+.card {
+  padding: .75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-wrap {
+  text-align: center;
+  background-color: red;
+  width: 100px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.content-wrap {
+  padding: 1.5rem 0;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+span {
+  font-size: .875rem;
+  font-style: italic;
+}
+
+.btn {
+  display: inline-block;
+  padding: .48em .9em;
+  border-radius: 8px;
+  background-color: #333;
+  width: 100%;
+
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
 
 /*
-- *Typefaces:* `Open Sans` (regular, italic, bold)
 - *Text sizes:* `2rem`, `.875rem`
-- *Line height:* `1.5`
-- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#ccc`, `#999`
+- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
 - *Paddings:* `1.5rem`, `.75rem`
 - *Margins:* `0`, `0 auto 1.5rem`, `0 0 1.5rem`
 - *Image width:* `100px`
 
-*The button is `.btn` & `.btn-small` from our buttons exercise.*
+*flex-grow
+*width: 25%
 */
