@@ -13,22 +13,52 @@ body {
   margin: 0;
 }
 
+section {
+  background-color: #f2f2f2;
+}
+
 h2 {
+  margin: 0;
+  padding: 1.5rem 0;
   text-align: center;
   font-weight: bold;
 }
 
 .wrapper {
+  display: flex;
+  padding: 0 1.5rem;
+}
 
-  background-color: green;
+.wrapper .btn:first-child {
+  background-color: #e2e2e2;
+}
 
+.wrapper .btn:nth-child(2) {
+  background-color: #ccc;
+}
+
+.wrapper .btn:nth-child(3) {
+  background-color: #aaa;
+}
+
+.wrapper .btn:last-child {
+  border-width: 0 thin 0;
+  border-style: solid;
+  border-color: Black;
+  background-color: #999;
+}
+
+.wrapper .btn:first-child, .wrapper .btn:nth-child(2), .wrapper .btn:nth-child(3) {
+  border-width: 0 0 0 thin;
+  border-style: solid;
+  border-color: Black;
 }
 
 /*
 - *Typefaces:* `Open Sans` (regular, italic, bold)
 - *Text sizes:* `2rem`, `.875rem`
 - *Line height:* `1.5`
-- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
+- *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#ccc`, `#999`
 - *Paddings:* `1.5rem`, `.75rem`
 - *Margins:* `0`, `0 auto 1.5rem`, `0 0 1.5rem`
 - *Image width:* `100px`
